@@ -1,0 +1,25 @@
+{
+  "name": "kansuji",
+  "description": "kanji numeric converter",
+  "version": "0.0.0",
+  "author": "nbqx",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/nbqx/kansuji.git"
+  },
+  "homepage": "https://github.com/nbqx/kansuji",
+  "main": "index.js",
+  "scripts": {
+    "test": "tape test/*.js",
+    "faucet": "tape test/*.js | ./node_modules/faucet/bin/cmd.js"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "event-stream": "^3.1.7"
+  },
+  "devDependencies": {
+    "faucet": "0.0.1",
+    "tap-colorize": "^1.2.0",
+    "tape": "^3.0.0"
+  }
+}
